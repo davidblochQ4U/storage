@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "gridfs": {
+    "port": "general",
+    "url": "mongodb://davidbloch:PASSWORD@ds163940.mlab.com:63940/matisse",
+    "name": "gridfs",
+    "connector": "loopback-component-storage-mongo",
+    "provider": "filesystem",
+    "root": "./files"
+  }
+}
